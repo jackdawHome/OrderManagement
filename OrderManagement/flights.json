@@ -1,0 +1,44 @@
+[
+  {
+    "CarrierCode":"LY",  
+    "Number": 1,
+    "Origin": "YUL",
+    "Destination": "YYZ",
+    "DepartureDate": "15Aug2020 12:00"
+  },
+  {
+    "CarrierCode": "LY",
+    "Number": 2,
+    "Origin": "YUL",
+    "Destination": "YYC",
+    "DepartureDate": "15Aug2020 12:00"
+  },
+  {
+    "CarrierCode": "LY",
+    "Number": 3,
+    "Origin": "YUL",
+    "Destination": "YVR",
+    "DepartureDate": "15Aug2020 12:00"
+  },
+  {
+    "CarrierCode": "LY",
+    "Number": 4,
+    "Origin": "YUL",
+    "Destination": "YYZ",
+    "DepartureDate": "16Aug2020 12:00"
+  },
+  {
+    "CarrierCode": "LY",
+    "Number": 5,
+    "Origin": "YUL",
+    "Destination": "YYC",
+    "DepartureDate": "16Aug2020 12:00"
+  },
+  {
+    "CarrierCode": "LY",
+    "Number": 6,
+    "Origin": "YUL",
+    "Destination": "YVR",
+    "DepartureDate": "16Aug2020 12:00"
+  }
+]
