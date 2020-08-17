@@ -32,7 +32,8 @@ namespace OrderManagement.Services
                     if (remainingCapacity > 0) 
                     {
                         IList<Order> orders = (await _orderService.GetNUnscheduledOrdersByDestination(f.Destination, remainingCapacity, cancellationToken)).ToList();
-                        
+                        if (orders.Count == 0)
+                            break;
                         var actualUsedSpace = orders.Sum(x => x.SpaceUnit);
                         f.UsedSpace += actualUsedSpace;
                         f.Orders.AddRange(orders);
